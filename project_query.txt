@@ -1,20 +1,3 @@
-### M. Baton we suggest you that while testing the query you should follow our report.
-### The notebook sould provide with all necessary code to download missing packages.
-### A side note here, if possible create an independent virtual environment and just
-### run the cell containing all the packages to install. Finally run this in the classical
-### notebook env and not jupyter lab that has a different backend rendering for javascript.
-
-### Finally you will need to install the APOC plugin in your database server.
-### You will see that we decided to really fragmented our queries based on our
-### conversation about the Eager and on more reading in our sides reagarding this
-### and the PROFILE of our queries. We reach teh conclusion that from a performance 
-### point of view having short straightfoward and stepwise queries is at the core 
-### of optimization with Neo4J. We think we manage to fulfill the written expectations
-### for the exam and stay available for any more details you would need from us.
-
-### Best regards
-### Sebastien and Faouzi
-
 ### Query 01
 LOAD CSV WITH HEADERS FROM "file:///curated_variant_disease_associations.tsv" AS line FIELDTERMINATOR "\t"
 RETURN line LIMIT 2
